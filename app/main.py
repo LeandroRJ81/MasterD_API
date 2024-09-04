@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.core.config import settings
+from core.config import settings
 from beanie import init_beanie
 from motor.motor_asyncio import AsyncIOMotorClient
 from api.api_v1.router import router
